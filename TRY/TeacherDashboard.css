@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+  
+body {
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    background: #e0e0e0;
+}
+.side-menu {
+    background: #f7f7f7;
+    width: 280px;
+    min-height: 100vh;
+    flex-direction: column;
+    border-right: 1px solid #d1d1d1;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+  
+.side-menu .admin,
+.side-menu .brand-name {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+  
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    
+}
+  
+.side-menu li {
+    font-size: 18px;
+    padding: 15px 30px;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+    cursor: pointer;
+}
+.side-menu li a{
+    text-decoration: none;
+    color: #333;
+}
+  
+.side-menu li:hover {
+    background: #e6e6e6;
+    color: #000;
+}
+  
+.admin-content {
+    flex: 1;
+    padding: 30px;
+    background-color: #f5f5f5;
+}
+  
+.section-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.values{
+    padding: 10px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.values .val-boxStudent{
+    background: white;
+    width: 435px;
+    padding: 56px 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.values .val-boxStudent i{
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    margin-right: 15px;
+}
+.values .val-boxStudent {
+    font-size: 18px;
+    font-weight: 600;
+}
+.values .val-boxStudent{
+    font-size: 25px;
+    color: black;
+}
+.values .val-boxTeacher{
+    background: white;
+    width: 435px;
+    padding: 56px 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.values .val-boxTeacher i{
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    margin-right: 15px;
+
+}
+.values .val-boxTeacher{
+    font-size: 18px;
+    font-weight: 600;
+}
+.values .val-boxTeacher{
+    font-size: 25px;
+    color: black;
+    
+}
+.values .val-boxSubject{
+    background: white;
+    width: 435px;
+    padding: 56px 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.values .val-boxSubject{
+    font-size: 18px;
+    font-weight: 600;
+}
+.values .val-boxSubject{
+    font-size: 25px;
+    color: black;
+}
+.values .val-boxSubject i{
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    margin-right: 15px;
+
+}
+
